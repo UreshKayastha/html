@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Roboto:wght@300;400;500;700&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a 
+{
+    text-decoration: none;
+}
+ul
+{
+list-style: none;
+
+}
+h1,h2,h3,h4,h5,h6
+{
+    font-weight: 700;
+}
+
+body
+{
+    font-family: 'Roboto', sans-serif;
+}
+.con
+{
+
+    width: 1200px;
+    margin: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.top
+{
+    background: #FEF7F6;
+    line-height: 50px;
+    font-size: 13px;
+}
+.f
+{
+    display: flex;
+}
+.jc
+{
+    justify-content: space-between;
+}
+.ai
+{
+    align-items: center;
+}
+.ta
+{
+
+    text-align: center;
+}
+header
+{
+    padding: 20px 0;
+}
+.banner
+{
+  
+    height: 450px;
+    text-align: center;
+    background-image: url("/img/slide1.png" );
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    line-height: 50px;
+
+}
+.w-100
+{
+width: 100%;
+display: block;
+}
+nav
+{
+    margin-left: 20px;
+}
+.box
+{
+    justify-content: space-between;
+    line-height: 30px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+   
+}
+.gap
+{
+    gap: 20px;
+}
+
+
+.banner2
+{
+    height: 450px;
+    text-align: center;
+    background-image: url("/img/xbox.png" );
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 20px 0;
+
+}
+
+.banner3
+{
+    height: 450px;
+    text-align: center;
+    background-image: url("/img/carbon.jpg" );
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 20px 0;
+
+}
+footer
+{
+    background-color: #F2F2F2;
+}
+footer ul
+{
+    list-style: none;
+}
+footer li
+{
+    line-height: 32px;
+}
+.con1
+{
+
+    width: 1200px;
+    padding-right: 0px;
+    padding-left: 0px;
+    justify-content: space-around;
+}
+.btn
+{
+    background: rgb(2, 0, 0);
+    color: white;
+    padding: 15px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.banner3 h2, .banner3 h4
+{
+    color: #eee5e5;
+}
+
+.btn2
+{
+    background: white;
+    color: black;
+    padding: 15px;
+    display: inline-block;
+    margin-top: 20px;
+}
+.gap2
+{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 30px 0 30px 30px;
+    gap: 20px;
+   
+}
+
+.fbox2
+{
+    justify-content:space-around;
+    line-height: 30px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    font-size: 13px;
+    gap: 30px;
+    inline-size: auto;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+   
+}
+
+.i
+{
+    list-style-type: none;
+    gap:30px;
+    flex-wrap: wrap;
+    padding: 10px 10px;
+}
+li
+{
+    display: inline-block;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .g{width: 200px;height: 200px;background: green;}
+        .box{width: 100%;height: 100%;background: red; transform: perspective(1000px) rotateY(60deg);}
+        .t{transition: 0.9s;}
+        .g:hover .box{transform: perspective(100px) rotateY('180deg');}
+        .box1{width: 100%;height: 100%;background: rgb(97, 12, 167); transform: perspective(1000px) rotateY(30deg);translateZ:(0px) ;}
+        .g:hover .box1{transform: perspective(100px) rotateY('30deg');translate:(100px);}
+        .box2{width: 100%;height: 100%;background: rgb(17, 132, 78); transform: perspective(1000px) rotateX(30deg);scale: (1) ;}
+        .g:hover .box2{transform: perspective(100px) scaleX(1.5);rotateX('30deg');}
+    </style>
+
+</head>
+<body>
+    <div class="g">
+        <div class="box t">A</div>
+    </div>
+    <hr>
+    <div class="g">
+        <div class="box1 t">B</div>
+    </div>
+    <hr>
+    <div class="g">
+        <div class="box2 t">C</div>
+    </div>
+    
+</body>
+</html>

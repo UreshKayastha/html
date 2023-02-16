@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <style>
+    .box
+    {
+        height: 300px; width: 400px; background:brown; transform: perspective(100px) scaleX(1.5);
+    }
+    .t
+    {
+        transition: 0.9s;
+    }
+    .box:hover
+    {
+        transform: rotate3d(40deg);
+    }
+
+   </style>
+</head>
+<body>
+    <div class="box t">
+        <img width=100% height=100% src="/img/category-img1.png" alt="">
+    </div>
+</body>
+</html>
