@@ -6,9 +6,18 @@
 
 *
 {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
+}
+ul
+{
+    list-style: none;
+}
+
+a
+{
+    text-decoration: none;
 }
 body
 {
@@ -16,16 +25,61 @@ body
 }
 .con
 {
-    max-width: 1200;
+    max-width: 1200px;
     margin: auto;
 }
 .flex
 {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content:space-around;
+    align-items:first baseline;
+    
+    
 }
 .top
 {
-    background: ;
+    background: red;
+    color: white;
+}
+.social li
+{
+    padding: 10px;
+}
+
+.social li a
+{
+   display: block; 
+   width: 30px;
+   height: 28px;
+   line-height: 28px;
+   background: white;
+   text-align: center;
+   color: black;
+   border-radius: 3px;
+   transition: 0.9s;
+   
+}
+.social li a:hover
+{
+    rotate: 360deg;
+}
+.flex1
+{
+    display: flex;
+}
+.w-100
+{
+    width: 100%;
+}
+.logo img
+{
+    width: 100%;
+}
+.logo
+{
+    flex-basis: 30%;
+}
+.ads
+{
+    flex-basis: 65%;
 }
