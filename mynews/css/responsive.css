@@ -1,6 +1,13 @@
 @media (max-width: 480px)
 {
 
- .top .flex { flex-direction: column;}
+  .flex { flex-direction: column;}
+  nav ul{display: none;}
+  nav { background: black; color: white;}
+  nav span {display: block;}
+  article h2
+  {
+    font-size: 25px;
+  }
 
 }
