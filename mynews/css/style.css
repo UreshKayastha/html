@@ -132,7 +132,7 @@ article img
 {
     position: relative; 
     width: 900px;
-    height: 400px;
+    height: 450px;
     background: #255995;
     color: white;
 }
@@ -181,12 +181,13 @@ article img
 .box
 {
     width: 180px;
+    padding-top: 50px;
 }
 .dleft
 {
     position: relative; 
-    width: 900px;
-    height: 400px;
+    width: 800px;
+    height: 550px;
     background: #F4F4F6;
     color:  #255995;
     text-align: justify;
@@ -206,5 +207,24 @@ article img
 }
 .pad
 {
-    padding-top: 100px;
+    padding-top: 50px;
+}
+.pull-right
+{
+    color:white;
+}
+.flex3
+{
+    display: flex    ;
+    justify-content: space-between;
+}
+.dbleft
+{
+    position: relative; right: 0; top: 0;
+    padding: 10px;
+}
+.dbright
+{
+    position: relative; right: 0; top: 0;
+    padding: 10px;
 }

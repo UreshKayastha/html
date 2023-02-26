@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Class</title>
+    <style>
+        p:first-child{background: pink !important;}
+        p:last-child{background: skyblue;}
+        p:nth-child(2),p:nth-child(3){background: red; color: white;}
+        p:nth-child(odd){background: yellow;}
+        p:nth-child(even){ font-size: 36px; text-transform: uppercase;}
+        a:visited{color: red;}
+        a:link{color: rgb(70, 29, 121);}
+        a:hover{color: violet;}
+        a:active{color: aqua !important;}
+        input:required{background-color: red;}
+        input:read-only{background: olive;}
+        input:disabled{background: skyblue;}
+        input:checked{ border: none; outline: 2px solid palevioletred;}
+        :root
+        {
+            --brand: red;
+            --w: 450px;
+            --color: yellow;
+
+        }
+        h1 { width: var(--w); height: var(--w);background: var(--brand);color:var(--color)}
+    </style>
+</head>
+<body>
+    <h1>This is demo for variable defined</h1>
+    <input type="text" name="a" required>
+    <input type="text" name="b" value="uresh" readonly>
+    <input type="text" disabled>
+    <input type="checkbox" checked>
+    <a href="https://google.com"> Google com  </a><a href="fb.com">FB</a> <a href="fheifheih.com">Twitter</a>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure recusandae eligendi numquam itaque vero nam facilis iusto totam perspiciatis corrupti,.</p>  
+<p> nihil distinctio cupiditate aliquam expedita inventore, tempore porro dolore dolor</p>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure recusandae eligendi numquam itaque vero nam facilis iusto totam perspiciatis corrupti,.</p>  
+<p> nihil distinctio cupiditate aliquam expedita inventore, tempore porro dolore dolor</p>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure recusandae eligendi numquam itaque vero nam facilis iusto totam perspiciatis corrupti,.</p>  
+<p> nihil distinctio cupiditate aliquam expedita inventore, tempore porro dolore dolor</p>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure recusandae eligendi numquam itaque vero nam facilis iusto totam perspiciatis corrupti,.</p>  
+<p> nihil distinctio cupiditate aliquam expedita inventore, tempore porro dolore dolor</p>
+</body>
+</html>

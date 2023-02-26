@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box
+        {
+            height: 200px; width: 200px; background: red; animation-name: abc;animation-duration: 4s; animation-iteration-count: 3; animation-delay: 3s;
+        }
+        @keyframes abc
+        {
+            0%, from {background: green;}
+            50% {background: pink;}
+            100%, to { background: yellow;}
+
+            
+        }
+        .box1
+        {
+            height: 200px; width: 200px; background: green; animation-name: mm; animation-duration: 4s; animation-iteration-count: 4; animation-direction: reverse; animation-fill-mode: forwards; position: relative;
+        }
+        .box2
+        {
+            height: 200px; width: 200px; background:yellow; animation-name: rot; animation-duration: 4s; animation-iteration-count: 4; animation-direction: reverse; animation-fill-mode: forwards;
+        }
+        @keyframes mm
+        {
+            0%, from {left: 0px;} 
+            100%, to { left: 500px;}
+            
+        }
+        .box2:hover
+        {
+            animation-play-state: paused;
+        }
+
+        @keyframes rot
+        {
+            0%, from {transform: rotate(0deg);} 
+            100%, to { transform: rotate(360deg);}
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+    <div class="box1"></div>
+    <div class="box2"></div>
+    
+
+    
+</body>
+</html>
